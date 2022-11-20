@@ -1,6 +1,6 @@
 {
 	"name": "create-react-app-without-cra",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Setup demo for creating react application without using CRA or any other framework",
 	"main": "index.js",
 	"scripts": {
