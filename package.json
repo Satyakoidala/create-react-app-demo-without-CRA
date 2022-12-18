@@ -5,7 +5,7 @@
 	"private": true,
 	"scripts": {
 		"start": "npm run build && webpack serve",
-		"build": "npm run prepare:husky && webpack --mode development",
+		"build": "webpack --mode development",
 		"lint": "npm run lint:js && npm run lint:css",
 		"lint:js": "eslint src/**/*.js",
 		"lint:css": "stylelint src/**/*.scss",
