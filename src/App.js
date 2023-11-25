@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.scss";
+import "./styles/app.scss";
 import timeline from "./assets/timeline.png";
 import workExperience from "./assets/workExperience.webp";
 
