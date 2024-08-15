@@ -1,5 +1,6 @@
 const path = require("path");
 const sass = require("sass");
+const Dotenv = require("dotenv-webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 
@@ -60,9 +61,11 @@ module.exports = {
 	},
 	plugins: [
 		new HTMLWebpackPlugin({
-			title: "Splitwise - React App",
+			title: "Monk Commerce Store Owner Page",
+			favicon: "",
 			filename: "index.html",
 			template: "src/pages/homepage.html",
 		}),
+		new Dotenv({ systemvars: true }),
 	],
 };
