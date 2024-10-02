@@ -61,7 +61,7 @@ module.exports = {
 	},
 	plugins: [
 		new HTMLWebpackPlugin({
-			title: "Monk Commerce Store Owner Page",
+			title: "Page Title",
 			favicon: "",
 			filename: "index.html",
 			template: "src/pages/homepage.html",

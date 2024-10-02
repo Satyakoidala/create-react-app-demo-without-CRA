@@ -1,7 +1,8 @@
 {
 	"name": "create-react-app-without-cra",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Setup demo for creating react application without using CRA or any other framework",
+	"preferGlobal": true,
 	"private": true,
 	"scripts": {
 		"start": "webpack-dev-server --env development",
@@ -20,7 +21,13 @@
 	"keywords": [
 		"react-startup-template",
 		"initial-setup",
-		"no-cra"
+		"no-cra",
+		"react-template-with-webpack",
+		"webpack",
+		"webpack-dev",
+		"github-actions",
+		"CI-ready",
+		"lint-configured"
 	],
 	"author": "Koidala Veera Venkata Satya Sai",
 	"license": "MIT",
