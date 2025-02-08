@@ -19,17 +19,19 @@ jobs:
         strategy:
             matrix:
                 os: [windows-latest, ubuntu-latest, macOS-latest]
-                node-version: ["18.17.0"]
+                node-version: ["18.18.0"]
                 # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
         steps:
-            - uses: actions/checkout@v3
+            - name: Checkout code
+              uses: actions/checkout@v3
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v3
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "npm"
                   cache-dependency-path: "./package-lock.json"
-
-            - run: npm i
-            - run: npm run build
+            - name: Install npm packages
+              run: npm i
+            - name: Build project
+              run: npm run build
