@@ -1,6 +1,6 @@
 {
-	"name": "@satyakodes/create-react-app",
-	"version": "0.0.1-5",
+	"name": "satyakodes-cra-template",
+	"version": "0.0.1-6",
 	"description": "Setup demo for creating react application without using CRA or any other framework",
 	"preferGlobal": true,
 	"publishConfig": {
